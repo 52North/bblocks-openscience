@@ -44,6 +44,35 @@
       "dcterms:title": "Best availabel pixel in timeseries over AOI",
       "openeo:processId": "bap",
       "backendCollection": "SENTINEL2_L2"
+    },
+
+    "sen_stac": {
+      "prov:type": ["prov:Collection", "geojson:FeatureCollection"],
+      "dcterms:title": "Seasonal Sen Slope",
+      "dcterms:conformsTo": "https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json",
+      "prov:atLocation": "http://example.org/stac/collections/sen/result1.json",
+      "checksum": "l8uxmxy2ocvm",
+      "ex:featureCount": 2
+    },
+
+    "sen_stac_item_001": {
+      "prov:type": ["geojson:Feature", "stac:Item"],
+      "stac:id": "DeltaIR_SAVI",
+      "geojson:FeatureCollection": "sen_stac",
+      "stac:datetime": "2026-07-02T14:41:05.028284Z",
+      "geojson:bbox": [444750.0, 4656880.0, 447700.0, 4658840.0],
+      "geojson:geometryType": "Polygon",
+      "stac:assets": ["DeltaIR_SAVI.tif"]
+    },
+
+    "sen_stac_item_002": {
+      "prov:type": ["geojson:Feature", "stac:Item"],
+      "stac:id": "PercentChange_SAVI",
+      "stac:collection": "sen_stac",
+      "stac:datetime": "2026-07-02T14:41:05.045039Z",
+      "geojson:bbox": [444750.0, 4656880.0, 447700.0, 4658840.0],
+      "geojson:geometryType": "Polygon",
+      "stac:assets": ["PercentChange_SAVI.tif"]
     }
   },
 
@@ -80,6 +109,7 @@
       "dcterms:title": "openeo-python-client",
       "version": "0.31.0"
     },
+
     "openeo_backend": {
       "prov:type": ["prov:SoftwareAgent", "openeo:Backend"],
       "dcterms:title": "openEO backend",
@@ -91,6 +121,11 @@
     "_:u1": {
       "prov:activity": "step1_bap",
       "prov:entity": "bap_process_graph"
+    },
+
+    "_:u2": {
+      "prov:activity": "step2_seasonal_sen_slope",
+      "prov:entity": "bap_stac"
     }
   },
 
@@ -98,6 +133,12 @@
     "_:g1": {
       "prov:entity": "bap_stac",
       "prov:activity": "step1_bap",
+      "prov:time": "2026-08-21T10:05:00Z"
+    },
+
+    "_:g2": {
+      "prov:entity": "sen_stac",
+      "prov:activity": "step2_seasonal_sen_slope",
       "prov:time": "2026-08-21T10:05:00Z"
     }
   },
@@ -108,15 +149,22 @@
       "prov:agent": "john_doe",
       "prov:plan": "bap_process_graph"
     },
+
     "_:a2": {
       "prov:activity": "step1_bap",
       "prov:agent": "openeo_client",
       "prov:plan": "bap_process_graph"
     },
+
     "_:a3": {
       "prov:activity": "step1_bap",
       "prov:agent": "openeo_backend",
-      "prov:plan": "procesbap_process_graphs_graph"
+      "prov:plan": "bap_process_graph"
+    },
+
+    "_:a4": {
+      "prov:activity": "step2_seasonal_sen_slope",
+      "prov:agent": "john_doe"
     }
   },
 
@@ -126,6 +174,7 @@
       "prov:responsible": "john_doe",
       "prov:activity": "step1_bap"
     },
+  
     "_:d2": {
       "prov:delegate": "openeo_backend",
       "prov:responsible": "openeo_client",
@@ -136,6 +185,11 @@
   "wasAttributedTo": {
     "_:att1": {
       "prov:entity": "bap_stac",
+      "prov:agent": "john_doe"
+    },
+
+    "_:att2": {
+      "prov:entity": "sen_stac",
       "prov:agent": "john_doe"
     }
   }
