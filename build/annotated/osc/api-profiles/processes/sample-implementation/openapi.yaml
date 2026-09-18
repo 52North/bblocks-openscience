@@ -55,12 +55,12 @@ paths:
                     properties:
                       inputs:
                         additionalProperties:
-                          $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml
+                          $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml
                           x-bblocks-extension-source: ogc.api.processes.v1.schemas.inputDescription
                           x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.inputDescriptions
                       outputs:
                         additionalProperties:
-                          $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
+                          $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
                           x-bblocks-extension-source: ogc.api.processes.v1.schemas.outputDescription
                           x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions
           description: A process description.
@@ -94,10 +94,10 @@ paths:
             application/json:
               schema:
                 allOf:
-                - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
+                - $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
                 - anyOf:
                   - allOf:
-                    - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
+                    - $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
                       x-bblocks-extension-source: ogc.api.processes.v1.schemas.outputDescription
                       x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions
                       allOf:
@@ -287,7 +287,7 @@ paths:
                               description:
                                 type: string
                               schema:
-                                $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml#/properties/area
+                                $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml#/properties/area
         404:
           $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotFound/schema.yaml
         500:
@@ -306,7 +306,7 @@ paths:
             application/json:
               schema:
                 allOf:
-                - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.yaml
+                - $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.yaml
                 - allOf:
                   - allOf:
                     - {}
@@ -314,22 +314,22 @@ paths:
                       properties:
                         inputs:
                           additionalProperties:
-                            $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml
+                            $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml
                             x-bblocks-extension-source: ogc.api.processes.v1.schemas.inputDescription
                             x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.inputDescriptions
                         outputs:
                           additionalProperties:
-                            $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
+                            $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
                             x-bblocks-extension-source: ogc.api.processes.v1.schemas.outputDescription
                             x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions
                   - properties:
                       inputs:
                         allOf:
-                        - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml
+                        - $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml
                           x-bblocks-extension-source: ogc.api.processes.v1.schemas.inputDescription
                           x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.inputDescriptions
                       outputs:
-                        $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
+                        $ref: https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml
                         x-bblocks-extension-source: ogc.api.processes.v1.schemas.outputDescription
                         x-bblocks-extension-target: ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions
   /processes/buffer-geometry/execution:

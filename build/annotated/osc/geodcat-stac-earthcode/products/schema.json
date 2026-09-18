@@ -3,7 +3,7 @@
   "description": "EarthCode Product",
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/geodcat-stac-earthcode/common/schema.json"
+      "$ref": "https://raw.githubusercontent.com/52North/bblocks-openscience/undefined/build/annotated/osc/geodcat-stac-earthcode/common/schema.json"
     },
     {
       "anyOf": [
