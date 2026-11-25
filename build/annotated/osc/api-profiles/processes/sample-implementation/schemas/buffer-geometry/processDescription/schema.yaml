@@ -2,13 +2,13 @@ allOf:
 - $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.yaml
 - properties:
     inputs:
-      $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.yaml
+      $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.yaml
       additionalProperties: false
     outputs:
-      $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.yaml
+      $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.yaml
       additionalProperties: false
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.processDescription
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '1.0'
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'

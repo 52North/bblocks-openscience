@@ -49,7 +49,7 @@ Inline inputs need `generatedAtTime` or `dcterms:hasVersion`; inline software ag
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld",
   "id": "https://example.org/runs/42/resample",
   "provType": "Activity",
   "activityType": "prov:Activity",
@@ -165,7 +165,7 @@ x-jsonld-prefixes:
   dcterms: http://purl.org/dc/terms/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.rss-hydro.processing-activity
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-10-14'
 
@@ -173,8 +173,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml)
 
 
 # JSON-LD Context
@@ -1003,13 +1003,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld)
+[context.jsonld](https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/rss-hydro/processing-activity`
 

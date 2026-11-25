@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:example:step:0001",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/ingest",

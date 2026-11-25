@@ -19,7 +19,7 @@
         "then": {
           "allOf": [
             {
-              "$ref": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.json"
+              "$ref": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.json"
             },
             {
               "required": [
@@ -57,11 +57,11 @@
           ]
         },
         "then": {
-          "$ref": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json#/$defs/datedOrVersioned"
+          "$ref": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json#/$defs/datedOrVersioned"
         }
       },
       {
-        "$ref": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json#/$defs/softwareVersioned"
+        "$ref": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json#/$defs/softwareVersioned"
       },
       {
         "if": {
@@ -105,7 +105,7 @@
   },
   "$defs": {
     "isProcessingActivity": {
-      "$ref": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.json#/$defs/isMomActivity"
+      "$ref": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.json#/$defs/isMomActivity"
     },
     "isHazardScore": {
       "required": [
@@ -137,7 +137,7 @@
   },
   "x-bblocks-metadata": {
     "itemIdentifier": "ogc.osc.rss-hydro.workflow.model-of-models",
-    "register": "https://ogcincubator.github.io/bblocks-openscience/build/register.json",
+    "register": "https://52north.github.io/bblocks-openscience/build/register.json",
     "version": "0.1",
     "dateOfLastChange": "2026-10-14"
   }

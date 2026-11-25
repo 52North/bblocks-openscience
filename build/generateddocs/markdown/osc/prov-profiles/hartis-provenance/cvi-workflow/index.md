@@ -402,7 +402,7 @@ A complete design-time and runtime provenance representation for the HARTIS CVI 
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld",
   "id": "hartis:cvi-run-example-001",
   "provType": "Entity",
   "entityType": "prov:Bundle",
@@ -1122,7 +1122,7 @@ description: 'HARTIS profile of the Workflow Provenance Graph (bundle form) for 
   a workflow definition, design-time plans with process types, a runtime activity
   whose steps link to their plans, and the entities they use and generate.'
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml
+- $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml
 - $ref: https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-entity/schema.yaml
 type: object
 required:
@@ -1218,7 +1218,7 @@ $defs:
     description: 'A runtime step: a Registered Processing Step that names its design-time
       plan and lists its inputs and outputs explicitly.'
     allOf:
-    - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+    - $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
     required:
     - provType
     - plan
@@ -1245,7 +1245,7 @@ x-jsonld-prefixes:
   ospd: https://www.opengis.net/def/ospd/2026/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.hartis-provenance.cvi-workflow
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
   dateOfLastChange: '2026-10-13'
 
@@ -1253,8 +1253,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.yaml)
 
 
 # JSON-LD Context
@@ -1760,7 +1760,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld)
+[context.jsonld](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld)
 
 ## Sources
 
@@ -1771,6 +1771,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/prov-profiles/hartis-provenance/cvi-workflow`
 

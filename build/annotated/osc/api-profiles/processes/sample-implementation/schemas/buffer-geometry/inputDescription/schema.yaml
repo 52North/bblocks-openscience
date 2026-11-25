@@ -15,7 +15,7 @@ properties:
         type: integer
         const: 1
       schema:
-        $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml#/properties/geometry
+        $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml#/properties/geometry
   distance:
     type: object
     properties:
@@ -32,7 +32,7 @@ properties:
         type: integer
         const: 1
       schema:
-        $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml#/properties/distance
+        $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml#/properties/distance
   units:
     type: object
     properties:
@@ -48,9 +48,9 @@ properties:
         type: integer
         const: 1
       schema:
-        $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml#/properties/units
+        $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml#/properties/units
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputDescription
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '1.0'
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'

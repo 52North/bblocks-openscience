@@ -28,22 +28,22 @@ properties:
     minimum: 0
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputSchema
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '1.0'
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema`
 

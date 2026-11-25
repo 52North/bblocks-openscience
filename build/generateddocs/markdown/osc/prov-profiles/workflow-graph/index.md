@@ -106,7 +106,7 @@ An input entity, two registered steps, and the outputs, with generation stated f
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld",
   "@graph": [
     {
       "id": "urn:example:dataset:areas-wgs84",
@@ -199,7 +199,7 @@ The same kind of run in bundle form: one entity typed prov:Bundle whose steps ar
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld",
   "id": "urn:example:run:42",
   "provType": "Entity",
   "entityType": "prov:Bundle",
@@ -317,7 +317,7 @@ $defs:
     if:
       $ref: '#/$defs/isActivity'
     then:
-      $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+      $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
     properties:
       '@context': true
     additionalProperties:
@@ -330,16 +330,16 @@ x-jsonld-prefixes:
   acttype: https://w3id.org/ogc/rim/activity-type/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.workflow-graph
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml)
 
 
 # JSON-LD Context
@@ -814,13 +814,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld)
+[context.jsonld](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/prov-profiles/workflow-graph`
 

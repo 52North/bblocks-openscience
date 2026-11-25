@@ -78,6 +78,6 @@ The postprocessor merges it into the base OpenAPI document:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/api-profiles/processes/sample-implementation`
 

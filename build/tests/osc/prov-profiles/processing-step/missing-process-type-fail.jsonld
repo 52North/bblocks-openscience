@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld",
   "id": "urn:example:step:reproject:1",
   "provType": "Activity",
   "label": "Reproject input areas",

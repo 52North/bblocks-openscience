@@ -2,7 +2,7 @@ $schema: https://json-schema.org/draft/2020-12/schema
 description: A MoM activity is a processing activity of one of the process types,
   linked to its register term.
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml
+- $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml
 - $ref: '#/$defs/isMomActivity'
 - required:
   - processType
@@ -56,6 +56,6 @@ x-jsonld-prefixes:
   pt: https://example.org/ospd/process-types/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.rss-hydro.ontology.activities
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-10-14'

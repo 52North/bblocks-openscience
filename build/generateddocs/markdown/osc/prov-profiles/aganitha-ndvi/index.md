@@ -63,7 +63,7 @@ Retrieval of source observations into the workflow. Ingest is where external pro
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:ingest-dicra:20260807T060000Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/ingest",
@@ -140,7 +140,7 @@ Rescaling an observed index against its own historical extremes. The reference e
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:vci:20260807T061000Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/index-normalisation",
@@ -222,7 +222,7 @@ The companion to the vegetation index step, and the piece that closes the gap in
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:smdi:20260807T061500Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/index-normalisation",
@@ -258,11 +258,11 @@ The companion to the vegetation index step, and the piece that closes the gap in
     rdfs:label "Compute soil moisture deficit index" ;
     prov:generated <urn:aganitha:dataset:smdi> ;
     prov:qualifiedUsage [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:mandal-ndvi-sm-merged> ;
-            prov:hadRole <https://example.org/ospd/roles/observedIndex> ],
-        [ a prov:Usage ;
             prov:entity <urn:aganitha:reference:soil-moisture-extrema> ;
-            prov:hadRole <https://example.org/ospd/roles/normalisationReference> ] ;
+            prov:hadRole <https://example.org/ospd/roles/normalisationReference> ],
+        [ a prov:Usage ;
+            prov:entity <urn:aganitha:dataset:mandal-ndvi-sm-merged> ;
+            prov:hadRole <https://example.org/ospd/roles/observedIndex> ] ;
     prov:type <https://example.org/ospd/process-types/index-normalisation> ;
     prov:used <urn:aganitha:dataset:mandal-ndvi-sm-merged>,
         <urn:aganitha:reference:soil-moisture-extrema> .
@@ -307,7 +307,7 @@ Combination of two condition indices under fixed weights. Both inputs share the 
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:cdsi:20260807T062000Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/index-composition",
@@ -349,10 +349,10 @@ Combination of two condition indices under fixed weights. Both inputs share the 
     rdfs:label "Compose combined drought severity index" ;
     prov:generated <urn:aganitha:dataset:cdsi> ;
     prov:qualifiedUsage [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:vci> ;
+            prov:entity <urn:aganitha:dataset:smdi> ;
             prov:hadRole <https://example.org/ospd/roles/indexComponent> ],
         [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:smdi> ;
+            prov:entity <urn:aganitha:dataset:vci> ;
             prov:hadRole <https://example.org/ospd/roles/indexComponent> ] ;
     prov:type <https://example.org/ospd/process-types/index-composition> ;
     prov:used <urn:aganitha:dataset:smdi>,
@@ -398,7 +398,7 @@ Assignment of continuous index values to discrete classes. The class scheme is a
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:classify:20260807T063000Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/classification",
@@ -442,11 +442,11 @@ Assignment of continuous index values to discrete classes. The class scheme is a
     rdfs:label "Classify drought severity" ;
     prov:generated <urn:aganitha:dataset:drought-classes> ;
     prov:qualifiedUsage [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:cdsi> ;
-            prov:hadRole <https://example.org/ospd/roles/inputField> ],
-        [ a prov:Usage ;
             prov:entity <urn:aganitha:scheme:drought-severity-classes> ;
-            prov:hadRole <https://example.org/ospd/roles/classificationScheme> ] ;
+            prov:hadRole <https://example.org/ospd/roles/classificationScheme> ],
+        [ a prov:Usage ;
+            prov:entity <urn:aganitha:dataset:cdsi> ;
+            prov:hadRole <https://example.org/ospd/roles/inputField> ] ;
     prov:type <https://example.org/ospd/process-types/classification> ;
     prov:used <urn:aganitha:dataset:cdsi>,
         <urn:aganitha:scheme:drought-severity-classes> .
@@ -488,7 +488,7 @@ Derivation of a standardised index from an accumulated series against a fitted r
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:spi:20260807T064000Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/standardised-index",
@@ -524,11 +524,11 @@ Derivation of a standardised index from an accumulated series against a fitted r
     rdfs:label "Compute standardised precipitation index" ;
     prov:generated <urn:aganitha:dataset:spi> ;
     prov:qualifiedUsage [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:precipitation-series> ;
-            prov:hadRole <https://example.org/ospd/roles/inputSeries> ],
-        [ a prov:Usage ;
             prov:entity <urn:aganitha:dataset:precipitation-reference-period> ;
-            prov:hadRole <https://example.org/ospd/roles/fittingReference> ] ;
+            prov:hadRole <https://example.org/ospd/roles/fittingReference> ],
+        [ a prov:Usage ;
+            prov:entity <urn:aganitha:dataset:precipitation-series> ;
+            prov:hadRole <https://example.org/ospd/roles/inputSeries> ] ;
     prov:type <https://example.org/ospd/process-types/standardised-index> ;
     prov:used <urn:aganitha:dataset:precipitation-reference-period>,
         <urn:aganitha:dataset:precipitation-series> .
@@ -586,7 +586,7 @@ This is the case the profile is least obviously shaped for, and the reason it is
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:train:20260807T070000Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/model-training",
@@ -636,14 +636,14 @@ This is the case the profile is least obviously shaped for, and the reason it is
     prov:generated <urn:aganitha:model:drought-classifier>,
         <urn:aganitha:report:validation-metrics> ;
     prov:qualifiedUsage [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:drought-classes> ;
-            prov:hadRole <https://example.org/ospd/roles/trainingTarget> ],
+            prov:entity <urn:aganitha:dataset:spi> ;
+            prov:hadRole <https://example.org/ospd/roles/trainingFeatures> ],
         [ a prov:Usage ;
             prov:entity <urn:aganitha:dataset:cdsi> ;
             prov:hadRole <https://example.org/ospd/roles/trainingFeatures> ],
         [ a prov:Usage ;
-            prov:entity <urn:aganitha:dataset:spi> ;
-            prov:hadRole <https://example.org/ospd/roles/trainingFeatures> ],
+            prov:entity <urn:aganitha:dataset:drought-classes> ;
+            prov:hadRole <https://example.org/ospd/roles/trainingTarget> ],
         [ a prov:Usage ;
             prov:entity <urn:aganitha:partition:district-folds> ;
             prov:hadRole <https://example.org/ospd/roles/validationPartition> ] ;
@@ -690,7 +690,7 @@ Applying a fitted model to produce a projection. The same model entity that was 
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:aganitha:step:project:20260807T071500Z",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/model-inference",
@@ -757,7 +757,7 @@ The smallest document that satisfies this profile.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
   "id": "urn:example:step:0001",
   "provType": "Activity",
   "activityType": "https://example.org/ospd/process-types/ingest",
@@ -795,7 +795,7 @@ description: A single geospatial processing step, expressed as a constrained pro
   through prov:qualifiedUsage rather than inline, so the profile stays compatible
   with the PROV-O object model.
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+- $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
 - type: object
   required:
   - used
@@ -835,7 +835,7 @@ allOf:
       additionalProperties: true
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.aganitha-ndvi
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
   dateOfLastChange: '2026-08-05'
 
@@ -843,8 +843,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.yaml)
 
 
 # JSON-LD Context
@@ -1669,13 +1669,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld)
+[context.jsonld](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/prov-profiles/aganitha-ndvi`
 

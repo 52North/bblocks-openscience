@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld",
   "id": "https://example.org/runs/42/resample",
   "provType": "Activity",
   "activityType": "prov:Activity",

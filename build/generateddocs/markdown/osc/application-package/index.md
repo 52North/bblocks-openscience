@@ -269,16 +269,16 @@ allOf:
 - $ref: https://raw.githubusercontent.com/common-workflow-language/cwl-v1.2/refs/heads/main/json-schema/cwl.yaml
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.application-package
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '0.1'
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.yaml)
 
 
 # JSON-LD Context
@@ -298,6 +298,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/application-package`
 

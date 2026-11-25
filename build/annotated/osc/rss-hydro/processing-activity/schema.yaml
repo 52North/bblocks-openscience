@@ -61,6 +61,6 @@ x-jsonld-prefixes:
   dcterms: http://purl.org/dc/terms/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.rss-hydro.processing-activity
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-10-14'

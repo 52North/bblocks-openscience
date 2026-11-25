@@ -12,7 +12,7 @@ items:
       $ref: '#/$defs/isProcessingActivity'
     then:
       allOf:
-      - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml
+      - $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml
       - required:
         - dcterms:isPartOf
   - if:
@@ -32,8 +32,8 @@ items:
       required:
       - entityType
     then:
-      $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/datedOrVersioned
-  - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/softwareVersioned
+      $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/datedOrVersioned
+  - $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/softwareVersioned
   - if:
       $ref: '#/$defs/isHazardScore'
     then:
@@ -56,7 +56,7 @@ items:
         - mom:dataTime
 $defs:
   isProcessingActivity:
-    $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml#/$defs/isMomActivity
+    $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml#/$defs/isMomActivity
   isHazardScore:
     required:
     - entityType
@@ -77,6 +77,6 @@ x-jsonld-prefixes:
   dcterms: http://purl.org/dc/terms/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.rss-hydro.workflow.model-of-models
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-10-14'

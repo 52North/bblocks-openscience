@@ -5,7 +5,7 @@ description: A single geospatial processing step, expressed as a constrained pro
   through prov:qualifiedUsage rather than inline, so the profile stays compatible
   with the PROV-O object model.
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+- $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
 - type: object
   required:
   - used
@@ -45,6 +45,6 @@ allOf:
       additionalProperties: true
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.aganitha-ndvi
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
   dateOfLastChange: '2026-08-05'

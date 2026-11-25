@@ -148,7 +148,7 @@ path	@id	schema
 /qualifiedStart	http://www.w3.org/ns/prov#qualifiedStart	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
 /qualifiedEnd	http://www.w3.org/ns/prov#qualifiedEnd	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
 /qualifiedAssociation	http://www.w3.org/ns/prov#qualifiedAssociation	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
-/_anyOf/1/activityType		https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
-/label	http://www.w3.org/2000/01/rdf-schema#label	https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+/_anyOf/1/activityType		https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+/label	http://www.w3.org/2000/01/rdf-schema#label	https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
 /qualifiedUsage/hadRole		/github/workspace/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.yaml
 /parameters		/github/workspace/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.yaml

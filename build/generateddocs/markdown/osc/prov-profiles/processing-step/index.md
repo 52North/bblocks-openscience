@@ -84,7 +84,7 @@ One step: provType identifies it as a PROV Activity, and activityType gives the 
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld",
+  "@context": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld",
   "id": "urn:example:step:reproject:1",
   "provType": "Activity",
   "activityType": "https://register.ospd.dev.kurrawong.ai/catalogs/reg:top/collections/reg:52north/items/demo:GA018",
@@ -178,16 +178,16 @@ $defs:
         $ref: '#/$defs/genericActivity'
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.processing-step
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml)
 
 
 # JSON-LD Context
@@ -1012,13 +1012,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld)
+[context.jsonld](https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/prov-profiles/processing-step`
 

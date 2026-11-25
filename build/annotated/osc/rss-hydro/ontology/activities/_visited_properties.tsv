@@ -148,5 +148,5 @@ path	@id	schema
 /qualifiedStart	http://www.w3.org/ns/prov#qualifiedStart	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
 /qualifiedEnd	http://www.w3.org/ns/prov#qualifiedEnd	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
 /qualifiedAssociation	http://www.w3.org/ns/prov#qualifiedAssociation	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
-/processType	http://purl.org/dc/terms/type	https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml
+/processType	http://purl.org/dc/terms/type	https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml
 /_then/processType		/github/workspace/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml

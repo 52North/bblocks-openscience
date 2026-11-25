@@ -60,6 +60,6 @@ $defs:
         $ref: '#/$defs/genericActivity'
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.processing-step
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'

@@ -82,7 +82,7 @@ $defs:
     if:
       $ref: '#/$defs/isActivity'
     then:
-      $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+      $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
     properties:
       '@context': true
     additionalProperties:
@@ -95,6 +95,6 @@ x-jsonld-prefixes:
   acttype: https://w3id.org/ogc/rim/activity-type/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.prov-profiles.workflow-graph
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: 0.1.0
-  dateOfLastChange: '2026-11-24'
+  dateOfLastChange: '2026-11-25'

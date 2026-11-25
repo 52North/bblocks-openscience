@@ -4,20 +4,20 @@
   "abstract": "Building Blocks for FAIR Open Science - profiles of OGC API Processes and various metadata standards to support open, transparent, interoperable and reproducible scientific workflows..\n",
   "description": "This repository is initially aimed to support the [Open Science Persistent Demonstrator](https://www.ogc.org/initiatives/open-science/) pilot, but may be further developed as a set of standards with appropriate working group governance.\n",
   "sparqlEndpoint": "https://defs-dev.opengis.net/fuseki/query",
-  "modified": "2026-11-24T05:53:00.439850",
+  "modified": "2026-11-25T12:54:07.309951",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"61523b7930e440b7e6e6bc03cb1b104d5d01f3f5",
-      "shortCommitId": "\"61523b",
-      "date": "2026-11-23T13:04:26+00:00\""
+      "commitId": "\"009466f93d27bf23cb4832f43883f4f524ab5d30",
+      "shortCommitId": "\"009466",
+      "date": "2026-11-24T22:38:04+00:00\""
     }
   },
-  "gitRepository": "https://github.com/ogcincubator/bblocks-openscience",
-  "gitHubRepository": "https://github.com/ogcincubator/bblocks-openscience/blob/master/",
-  "baseURL": "https://ogcincubator.github.io/bblocks-openscience/",
-  "viewerURL": "https://ogcincubator.github.io/bblocks-openscience/",
-  "validationReport": "https://ogcincubator.github.io/bblocks-openscience/build/tests/report.html",
-  "validationReportJson": "https://ogcincubator.github.io/bblocks-openscience/build/tests/report.json",
+  "gitRepository": "https://github.com/52North/bblocks-openscience",
+  "gitHubRepository": "https://github.com/52North/bblocks-openscience/blob/master/",
+  "baseURL": "https://52north.github.io/bblocks-openscience/",
+  "viewerURL": "https://52north.github.io/bblocks-openscience/",
+  "validationReport": "https://52north.github.io/bblocks-openscience/build/tests/report.html",
+  "validationReportJson": "https://52north.github.io/bblocks-openscience/build/tests/report.json",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json",
     "https://ogcincubator.github.io/bblocks-ogcapi-records/build/register.json",
@@ -36,7 +36,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -45,25 +45,25 @@
       ],
       "shaclShapes": {},
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/schema.yaml",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputSchema/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputSchema"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputSchema"
         }
       }
     },
@@ -76,7 +76,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -89,26 +89,26 @@
         "bblocks://ogc.ogc-utils.iri-or-curie"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputSchema/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputSchema"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputSchema"
         }
       }
     },
@@ -120,7 +120,7 @@
       "abstract": "A PROV Activity describing one processing step, typed by a process type from a governed register.",
       "status": "under-development",
       "dateTimeAddition": "2026-11-21T00:00:00Z",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "itemClass": "schema",
       "version": "0.1.0",
       "isProfileOf": [
@@ -136,7 +136,7 @@
       ],
       "shaclShapes": {
         "ogc.osc.prov-profiles.processing-step": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
@@ -146,29 +146,29 @@
         "bblocks://ogc.ogc-utils.iri-or-curie",
         "bblocks://ogc.ogc-utils.prov-activity"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/processing-step/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/processing-step/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/processing-step/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/processing-step/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/processing-step/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/processing-step/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.processing-step"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.processing-step"
         }
       }
     },
@@ -195,30 +195,30 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "dateOfLastChange": "2026-11-24",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld",
+      "dateOfLastChange": "2026-11-25",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/processing-activity/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/processing-activity/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/processing-activity/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/processing-activity/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/processing-activity/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/processing-activity/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/rss-hydro/processing-activity/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/rss-hydro/processing-activity/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/rss-hydro/processing-activity/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/rss-hydro/processing-activity/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/rss-hydro/processing-activity/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/rss-hydro/processing-activity/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.rss-hydro.processing-activity"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.rss-hydro.processing-activity"
         }
       }
     },
@@ -231,7 +231,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -244,26 +244,26 @@
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputSchema"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/inputDescription/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputDescription"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputDescription"
         }
       }
     },
@@ -276,7 +276,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -289,26 +289,26 @@
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputSchema"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/outputDescription/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputDescription"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputDescription"
         }
       }
     },
@@ -323,7 +323,7 @@
       "itemClass": "model",
       "register": "ogc-incubator",
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "dependsOn": [
         "bblocks://ogc.ogc-utils.prov"
       ],
@@ -337,20 +337,20 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/ontology/cwlprov/",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/ontology/cwlprov/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/ontology/cwlprov/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/ontology/cwlprov/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/ontology/cwlprov/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/ontology/cwlprov/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.ontology.cwlprov"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.ontology.cwlprov"
         }
       }
     },
@@ -375,7 +375,7 @@
       ],
       "shaclShapes": {
         "ogc.osc.prov-profiles.processing-step": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
@@ -384,29 +384,29 @@
       "dependsOn": [
         "bblocks://ogc.osc.prov-profiles.processing-step"
       ],
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/aganitha-ndvi/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/aganitha-ndvi/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/aganitha-ndvi/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/aganitha-ndvi/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/aganitha-ndvi/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/aganitha-ndvi/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/aganitha-ndvi/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/aganitha-ndvi/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/aganitha-ndvi/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/aganitha-ndvi/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/aganitha-ndvi/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.aganitha-ndvi"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.aganitha-ndvi"
         }
       }
     },
@@ -418,7 +418,7 @@
       "abstract": "Provenance of a workflow run as a PROV graph in which every activity is a registered processing step.",
       "status": "under-development",
       "dateTimeAddition": "2026-11-21T00:00:00Z",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "itemClass": "schema",
       "version": "0.1.0",
       "isProfileOf": [
@@ -438,26 +438,26 @@
       ],
       "shaclShapes": {
         "ogc.osc.prov-profiles.workflow-graph": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.osc.prov-profiles.processing-step": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/workflow-graph/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/workflow-graph/",
       "semanticUplift": {
         "additionalSteps": [
           {
@@ -479,15 +479,15 @@
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/workflow-graph/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/workflow-graph/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/workflow-graph/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/workflow-graph/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.workflow-graph"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.workflow-graph"
         }
       }
     },
@@ -517,31 +517,31 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "dateOfLastChange": "2026-11-24",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/context.jsonld",
-      "ontology": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/ontology.ttl",
+      "dateOfLastChange": "2026-11-25",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/context.jsonld",
+      "ontology": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/ontology.ttl",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/ontology/activities/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/ontology/activities/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/ontology/activities/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/ontology/activities/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/ontology/activities/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/ontology/activities/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/rss-hydro/ontology/activities/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/rss-hydro/ontology/activities/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/rss-hydro/ontology/activities/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/rss-hydro/ontology/activities/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/rss-hydro/ontology/activities/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/rss-hydro/ontology/activities/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.rss-hydro.ontology.activities"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.rss-hydro.ontology.activities"
         }
       }
     },
@@ -551,7 +551,7 @@
       "dateTimeAddition": "2025-10-22T15:29:12.046535",
       "register": "ogcapi-processes",
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "tags": [
         "ogcapi-processes",
         "schema"
@@ -570,26 +570,26 @@
         "bblocks://ogc.ogc-utils.prov-entity"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/results/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/results/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/results/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/results/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/results/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ipt/results/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ipt/results/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ipt/results/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ipt/results/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ipt.results"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ipt.results"
         }
       }
     },
@@ -602,7 +602,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -614,26 +614,26 @@
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.inputDescription"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/inputDescriptions/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/inputDescriptions/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/inputDescriptions/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/inputDescriptions/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.inputDescriptions"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.inputDescriptions"
         }
       }
     },
@@ -646,7 +646,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -660,26 +660,26 @@
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputDescription"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/buffer-geometry/processDescription/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.processDescription"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.processDescription"
         }
       }
     },
@@ -692,7 +692,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -704,26 +704,26 @@
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.buffer-geometry.outputDescription"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/outputDescriptions/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/outputDescriptions/schema.yaml",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/schemas/outputDescriptions/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/schemas/outputDescriptions/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions"
         }
       }
     },
@@ -738,7 +738,7 @@
       "itemClass": "model",
       "register": "ogc-incubator",
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "dependsOn": [
         "bblocks://ogc.contrib.stac.core-ontology",
         "bblocks://ogc.contrib.stac.extensions.cf-ontology",
@@ -769,20 +769,20 @@
           "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing-ontology/shapes.shacl"
         ]
       },
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/ontology/openscience/",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/ontology/openscience/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/ontology/openscience/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/ontology/openscience/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/ontology/openscience/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/ontology/openscience/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.ontology.openscience"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.ontology.openscience"
         }
       }
     },
@@ -794,7 +794,7 @@
       "abstract": "Cool Spot Workflow Provenance Profile.",
       "status": "under-development",
       "dateTimeAddition": "2026-09-21T00:00:00Z",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "itemClass": "schema",
       "register": "ogc-incubator",
       "isProfileOf": [
@@ -818,41 +818,41 @@
       ],
       "shaclShapes": {
         "ogc.osc.prov-profiles.workflow-graph": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.osc.prov-profiles.processing-step": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
         ]
       },
       "dependsOn": [
         "bblocks://ogc.osc.prov-profiles.workflow-graph"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/context.jsonld",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/cool-spots/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/cool-spots/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/cool-spots/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/cool-spots/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/cool-spots/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/cool-spots/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/cool-spots/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/prov-examples/52n-provenance/cool-spots/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/prov-examples/52n-provenance/cool-spots/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-examples/52n-provenance/cool-spots/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-examples/52n-provenance/cool-spots/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-examples/52n-provenance/cool-spots/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-examples/52n-provenance/cool-spots/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.prov-examples.52n-provenance.cool-spots"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.prov-examples.52n-provenance.cool-spots"
         }
       }
     },
@@ -864,7 +864,7 @@
       "abstract": "Vegetation Productivity Trend Workflow Provenance Profile.",
       "status": "under-development",
       "dateTimeAddition": "2026-08-18T00:00:00Z",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "itemClass": "schema",
       "register": "ogc-incubator",
       "isProfileOf": [
@@ -888,41 +888,41 @@
       ],
       "shaclShapes": {
         "ogc.osc.prov-profiles.workflow-graph": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.osc.prov-profiles.processing-step": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
         ]
       },
       "dependsOn": [
         "bblocks://ogc.osc.prov-profiles.workflow-graph"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/context.jsonld",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/vegetation-productivity/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/vegetation-productivity/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/vegetation-productivity/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/vegetation-productivity/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/vegetation-productivity/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-examples/52n-provenance/vegetation-productivity/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/prov-examples/52n-provenance/vegetation-productivity/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/prov-examples/52n-provenance/vegetation-productivity/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/prov-examples/52n-provenance/vegetation-productivity/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-examples/52n-provenance/vegetation-productivity/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-examples/52n-provenance/vegetation-productivity/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-examples/52n-provenance/vegetation-productivity/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-examples/52n-provenance/vegetation-productivity/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.prov-examples.52n-provenance.vegetation-productivity"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.prov-examples.52n-provenance.vegetation-productivity"
         }
       }
     },
@@ -954,10 +954,10 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.osc.prov-profiles.processing-step": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/processing-step/shapes.shacl"
         ],
         "ogc.osc.prov-profiles.workflow-graph": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/workflow-graph/shapes.shacl"
         ]
       },
       "dependsOn": [
@@ -967,30 +967,30 @@
         "bblocks://ogc.osc.prov-profiles.processing-step",
         "bblocks://ogc.osc.prov-profiles.workflow-graph"
       ],
-      "dateOfLastChange": "2026-11-24",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld",
+      "dateOfLastChange": "2026-11-25",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/hartis-provenance/cvi-workflow/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/prov-profiles/hartis-provenance/cvi-workflow/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/hartis-provenance/cvi-workflow/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/hartis-provenance/cvi-workflow/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/hartis-provenance/cvi-workflow/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/prov-profiles/hartis-provenance/cvi-workflow/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/hartis-provenance/cvi-workflow/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/prov-profiles/hartis-provenance/cvi-workflow/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/hartis-provenance/cvi-workflow/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/prov-profiles/hartis-provenance/cvi-workflow/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/hartis-provenance/cvi-workflow/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/prov-profiles/hartis-provenance/cvi-workflow/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.hartis-provenance.cvi-workflow"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.prov-profiles.hartis-provenance.cvi-workflow"
         }
       }
     },
@@ -1016,36 +1016,36 @@
       ],
       "shaclShapes": {
         "ogc.osc.rss-hydro.workflow.model-of-models": [
-          "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/rules.shacl"
+          "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/rules.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "dateOfLastChange": "2026-11-24",
-      "ldContext": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld",
+      "dateOfLastChange": "2026-11-25",
+      "ldContext": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/rss-hydro/workflow/model-of-models/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/rss-hydro/workflow/model-of-models/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/rss-hydro/workflow/model-of-models/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/rss-hydro/workflow/model-of-models/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/rss-hydro/workflow/model-of-models/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/rss-hydro/workflow/model-of-models/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/rss-hydro/workflow/model-of-models/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.rss-hydro.workflow.model-of-models"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.rss-hydro.workflow.model-of-models"
         }
       }
     },
@@ -1055,7 +1055,7 @@
       "dateTimeAddition": "2025-10-22T15:29:12.046535",
       "register": "ogcapi-processes",
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "tags": [
         "ogcapi-processes",
         "schema"
@@ -1068,25 +1068,25 @@
         "bblocks://ogc.ogc-utils.iri-or-curie"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/execute/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/execute/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/execute/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/execute/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/execute/schema.yaml",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/execute/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/execute/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/execute/schema.yaml",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/ipt/execute/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/execute/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ipt/execute/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ipt/execute/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ipt/execute/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ipt/execute/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ipt.execute"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ipt.execute"
         }
       }
     },
@@ -1100,7 +1100,7 @@
       "itemClass": "api",
       "register": "ogcapi-features",
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "sources": [
         {
           "title": "OGC API Processes",
@@ -1121,20 +1121,20 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/api/",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/ipt/api/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ipt/api/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ipt/api/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ipt/api/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ipt/api/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ipt.api"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ipt.api"
         }
       }
     },
@@ -1149,7 +1149,7 @@
       "itemClass": "api",
       "register": "ogc-incubator",
       "version": "1.0",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "maturity": "development",
       "tags": [
         "examples",
@@ -1183,22 +1183,22 @@
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.inputDescriptions",
         "bblocks://ogc.osc.api-profiles.processes.sample-implementation.schemas.outputDescriptions"
       ],
-      "sourceOpenAPIDocument": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/openapi.yaml",
-      "openAPIDocument": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/openapi.yaml",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/",
+      "sourceOpenAPIDocument": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/openapi.yaml",
+      "openAPIDocument": "https://52north.github.io/bblocks-openscience/build/annotated/osc/api-profiles/processes/sample-implementation/openapi.yaml",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/sample-implementation/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/sample-implementation/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/sample-implementation/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.sample-implementation"
         }
       }
     },
@@ -1216,7 +1216,7 @@
         "bblocks://ogc.profiles.prov.cwl.provenance"
       ],
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "link": "https://github.com/opengeospatial/geodcat-ogcapi-records",
       "sources": [
         {
@@ -1233,27 +1233,27 @@
       },
       "ldContext": "/github/workspace/_sources/application-package/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.json"
+        "application/yaml": "https://52north.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.yaml",
+        "application/json": "https://52north.github.io/bblocks-openscience/build/annotated/osc/application-package/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-openscience/_sources/application-package/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-openscience/_sources/application-package/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/application-package/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/application-package/",
+      "sourceSchema": "https://52north.github.io/bblocks-openscience/_sources/application-package/schema.yaml",
+      "sourceLdContext": "https://52north.github.io/bblocks-openscience/_sources/application-package/context.jsonld",
+      "resolvedSchemaProperties": "https://52north.github.io/bblocks-openscience/build/annotated/osc/application-package/resolvedProperties.json",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/application-package/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-openscience/blob/master/build/tests/osc/application-package/",
+      "testOutputs": "https://github.com/52North/bblocks-openscience/blob/master/build/tests/osc/application-package/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/application-package/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/application-package/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/application-package/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/application-package/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.application-package"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.application-package"
         }
       }
     },
@@ -1272,7 +1272,7 @@
         "bblocks://ogc.osc.application-package"
       ],
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "link": "https://github.com/opengeospatial/ogcapi-processes",
       "sources": [],
       "scope": "dev",
@@ -1288,20 +1288,20 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/workflow/",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/workflow/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/workflow/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/workflow/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/workflow/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/workflow/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.workflow"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.workflow"
         }
       }
     },
@@ -1319,7 +1319,7 @@
         "bblocks://ogc.osc.api-profiles.processes.workflow"
       ],
       "version": "0.1",
-      "dateOfLastChange": "2026-11-24",
+      "dateOfLastChange": "2026-11-25",
       "link": "https://github.com/opengeospatial/ogcapi-processes",
       "sources": [],
       "scope": "dev",
@@ -1335,41 +1335,41 @@
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ]
       },
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-openscience/_sources/api-profiles/processes/ospd/",
+      "sourceFiles": "https://52north.github.io/bblocks-openscience/_sources/api-profiles/processes/ospd/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ospd/index.md"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/markdown/osc/api-profiles/processes/ospd/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ospd/index.json"
+          "url": "https://52north.github.io/bblocks-openscience/build/generateddocs/json-full/osc/api-profiles/processes/ospd/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ospd"
+          "url": "https://52north.github.io/bblocks-openscience/bblock/ogc.osc.api-profiles.processes.ospd"
         }
       }
     }
   ],
-  "remoteCacheDir": "https://ogcincubator.github.io/bblocks-openscience/build/annotated/_cache",
+  "remoteCacheDir": "https://52north.github.io/bblocks-openscience/build/annotated/_cache",
   "links": [
     {
       "rel": "self",
-      "href": "https://ogcincubator.github.io/bblocks-openscience/build/register.json",
+      "href": "https://52north.github.io/bblocks-openscience/build/register.json",
       "type": "application/json",
       "title": "This Building Blocks Register in JSON format"
     },
     {
       "rel": "self",
-      "href": "https://ogcincubator.github.io/bblocks-openscience/build/bblocks.ttl",
+      "href": "https://52north.github.io/bblocks-openscience/build/bblocks.ttl",
       "type": "text/turtle",
       "title": "This Building Blocks Register in RDF Turtle format"
     },
     {
       "rel": "self",
-      "href": "https://ogcincubator.github.io/bblocks-openscience/build/bblocks.jsonld",
+      "href": "https://52north.github.io/bblocks-openscience/build/bblocks.jsonld",
       "type": "application/ld+json",
       "title": "This Building Blocks Register in JSON-LD format"
     }

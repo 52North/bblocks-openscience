@@ -442,7 +442,7 @@ Usual run; the final alert compares with the alert of the 2026-03-01 18:00 run. 
     {
       "run": "https://example.org/mom/run/2026030200/"
     },
-    "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld"
+    "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld"
   ],
   "@graph": [
     {
@@ -1541,7 +1541,7 @@ Same run without an earlier alert; every watershed is New. All values are illust
     {
       "run": "https://example.org/mom/run/2026030200/"
     },
-    "https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld"
+    "https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld"
   ],
   "@graph": [
     {
@@ -2207,7 +2207,7 @@ items:
       $ref: '#/$defs/isProcessingActivity'
     then:
       allOf:
-      - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml
+      - $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml
       - required:
         - dcterms:isPartOf
   - if:
@@ -2227,8 +2227,8 @@ items:
       required:
       - entityType
     then:
-      $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/datedOrVersioned
-  - $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/softwareVersioned
+      $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/datedOrVersioned
+  - $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/processing-activity/schema.yaml#/$defs/softwareVersioned
   - if:
       $ref: '#/$defs/isHazardScore'
     then:
@@ -2251,7 +2251,7 @@ items:
         - mom:dataTime
 $defs:
   isProcessingActivity:
-    $ref: https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml#/$defs/isMomActivity
+    $ref: https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/ontology/activities/schema.yaml#/$defs/isMomActivity
   isHazardScore:
     required:
     - entityType
@@ -2272,7 +2272,7 @@ x-jsonld-prefixes:
   dcterms: http://purl.org/dc/terms/
 x-bblocks-metadata:
   itemIdentifier: ogc.osc.rss-hydro.workflow.model-of-models
-  register: https://ogcincubator.github.io/bblocks-openscience/build/register.json
+  register: https://52north.github.io/bblocks-openscience/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-10-14'
 
@@ -2280,8 +2280,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.yaml)
+* YAML version: [schema.yaml](https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.json)
+* JSON version: [schema.json](https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/schema.yaml)
 
 
 # JSON-LD Context
@@ -2769,13 +2769,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld)
+[context.jsonld](https://52north.github.io/bblocks-openscience/build/annotated/osc/rss-hydro/workflow/model-of-models/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-openscience](https://github.com/ogcincubator/bblocks-openscience)
+* URL: [https://github.com/52North/bblocks-openscience](https://github.com/52North/bblocks-openscience)
 * Path: `_sources/rss-hydro/workflow/model-of-models`
 

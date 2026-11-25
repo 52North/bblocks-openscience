@@ -148,11 +148,11 @@ path	@id	schema
 /_anyOf/0/_oneOf/0/qualifiedAttribution/_oneOf/1/provType	@type	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
 /_anyOf/0/_oneOf/0/qualifiedAttribution/_oneOf/1/influenceType	http://www.w3.org/ns/prov#type	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
 /_anyOf/0/_oneOf/0/qualifiedAttribution/_oneOf/1/agent	http://www.w3.org/ns/prov#agent	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-activity/schema.yaml
-/_anyOf/0/_anyOf/0/provType		https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml
-/_anyOf/1/_anyOf/0/entityType		https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml
-/_then/_anyOf/1/activityType		https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
-/_then/label	http://www.w3.org/2000/01/rdf-schema#label	https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
-/_then/activityType		https://ogcincubator.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+/_anyOf/0/_anyOf/0/provType		https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml
+/_anyOf/1/_anyOf/0/entityType		https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/workflow-graph/schema.yaml
+/_then/_anyOf/1/activityType		https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+/_then/label	http://www.w3.org/2000/01/rdf-schema#label	https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
+/_then/activityType		https://52north.github.io/bblocks-openscience/build/annotated/osc/prov-profiles/processing-step/schema.yaml
 /_then/hadMember	http://www.w3.org/ns/prov#hadMember	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-entity/schema.yaml
 /id	@id	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-entity/schema.yaml
 /provType	@type	https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-entity/schema.yaml
